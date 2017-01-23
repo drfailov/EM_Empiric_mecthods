@@ -1,0 +1,349 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{49E64C4B-DDDB-4A02-A2AC-A12D3E425D0C}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>EM_29092014_lab1</RootNamespace>
+    <AssemblyName>EM_29092014_lab1</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="analyzers\EventAppearAnalyzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analyzers\EventAppearAnalyzer.Designer.cs">
+      <DependentUpon>EventAppearAnalyzer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="analyzers\ContinuousGaussProcessAnalyzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analyzers\ContinuousGaussProcessAnalyzer.Designer.cs">
+      <DependentUpon>ContinuousGaussProcessAnalyzer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="analyzers\DensityAnalyser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analyzers\DensityAnalyser.Designer.cs">
+      <DependentUpon>DensityAnalyser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="analyzers\CycleAnalyzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analyzers\CycleAnalyzer.Designer.cs">
+      <DependentUpon>CycleAnalyzer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="analyzers\Hi2Analyzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analyzers\Hi2Analyzer.Designer.cs">
+      <DependentUpon>Hi2Analyzer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="analyzers\AutocorelationCriteriaAnalyzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analyzers\AutocorelationCriteriaAnalyzer.Designer.cs">
+      <DependentUpon>AutocorelationCriteriaAnalyzer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="analyzers\LogCreatorAnalyzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analyzers\LogCreatorAnalyzer.Designer.cs">
+      <DependentUpon>LogCreatorAnalyzer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="analyzers\SwapCriteriaAnalyzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analyzers\SwapCriteriaAnalyzer.Designer.cs">
+      <DependentUpon>SwapCriteriaAnalyzer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="analyzers\RepeatsAnalyzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analyzers\RepeatsAnalyzer.Designer.cs">
+      <DependentUpon>RepeatsAnalyzer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="analyzers\DispersionAnalyzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analyzers\DispersionAnalyzer.Designer.cs">
+      <DependentUpon>DispersionAnalyzer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="analyzers\MathExpectationAnalyzer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="analyzers\MathExpectationAnalyzer.Designer.cs">
+      <DependentUpon>MathExpectationAnalyzer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="analyzers\MethodAnalyzer.cs" />
+    <Compile Include="methods\RandomFisherSnedekor.cs" />
+    <Compile Include="methods\RandomHi2Distribution.cs" />
+    <Compile Include="methods\RandomHi2DistributionWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="methods\RandomHi2DistributionWindow.Designer.cs">
+      <DependentUpon>RandomHi2DistributionWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\RandomFisherSnedekorWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="methods\RandomFisherSnedekorWindow.Designer.cs">
+      <DependentUpon>RandomFisherSnedekorWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\RandomStandartNormalDistributionBarsaliBreyWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="methods\RandomStandartNormalDistributionBarsaliBreyWindow.Designer.cs">
+      <DependentUpon>RandomStandartNormalDistributionBarsaliBreyWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\RandomStandartNormalDistributionBarsaliBrey.cs" />
+    <Compile Include="methods\RandomConcatenateSequences.cs" />
+    <Compile Include="methods\RandomBinomialDistribution.cs" />
+    <Compile Include="methods\RandomBinomialDistributionWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="methods\RandomBinomialDistributionWindow.Designer.cs">
+      <DependentUpon>RandomBinomialDistributionWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\RandomExponentialDistributionWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="methods\RandomExponentialDistributionWindow.Designer.cs">
+      <DependentUpon>RandomExponentialDistributionWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\RandomPuassoFlowWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="methods\RandomPuassoFlowWindow.Designer.cs">
+      <DependentUpon>RandomPuassoFlowWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\RandomPuassonFlow.cs" />
+    <Compile Include="TimelineGraph.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimelineGraph.Designer.cs">
+      <DependentUpon>TimelineGraph.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MethodSelectWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MethodSelectWindow.Designer.cs">
+      <DependentUpon>MethodSelectWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\MyRandom.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="methods\RandomBoxMullerSinBinary.cs" />
+    <Compile Include="methods\RandomStandartNormalDistributionCentralEdgeTheorema.cs" />
+    <Compile Include="methods\RandomBoxMullerCos.cs" />
+    <Compile Include="methods\RandomStandartNormalDistributionCentralEdgeTheoremaWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="methods\RandomStandartNormalDistributionCentralEdgeTheoremaWindow.Designer.cs">
+      <DependentUpon>RandomStandartNormalDistributionCentralEdgeTheoremaWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\RandomExponentialDistribution.cs" />
+    <Compile Include="MethodAnalyzeWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MethodAnalyzeWindow.Designer.cs">
+      <DependentUpon>MethodAnalyzeWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\RandomBoxMullerSin.cs" />
+    <Compile Include="methods\RandomKovey.cs" />
+    <Compile Include="methods\RandomConcatenateSequencesWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="methods\RandomConcatenateSequencesWindow.Designer.cs">
+      <DependentUpon>RandomConcatenateSequencesWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\RandomBoxMullerWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="methods\RandomBoxMullerWindow.Designer.cs">
+      <DependentUpon>RandomBoxMullerWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\RandomLevin.cs" />
+    <Compile Include="methods\RandomLevisPaneWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="methods\RandomLevisPaneWindow.Designer.cs">
+      <DependentUpon>RandomLevisPaneWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\RandomLinearCongurentWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="methods\RandomLinearCongurentWindow.Designer.cs">
+      <DependentUpon>RandomLinearCongurentWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\RandomLevinWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="methods\RandomLevinWindow.Designer.cs">
+      <DependentUpon>RandomLevinWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\RandomLevisPane.cs" />
+    <Compile Include="methods\RandomLinearCongurent.cs" />
+    <Compile Include="methods\RandomMyExclusive.cs" />
+    <Compile Include="methods\RandomKoveyWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="methods\RandomKoveyWindow.Designer.cs">
+      <DependentUpon>RandomKoveyWindow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="methods\RandomMyExclusiveWindow.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="methods\RandomMyExclusiveWindow.Designer.cs">
+      <DependentUpon>RandomMyExclusiveWindow.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="analyzers\EventAppearAnalyzer.resx">
+      <DependentUpon>EventAppearAnalyzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="analyzers\ContinuousGaussProcessAnalyzer.resx">
+      <DependentUpon>ContinuousGaussProcessAnalyzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="analyzers\DensityAnalyser.resx">
+      <DependentUpon>DensityAnalyser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="analyzers\CycleAnalyzer.resx">
+      <DependentUpon>CycleAnalyzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="analyzers\Hi2Analyzer.resx">
+      <DependentUpon>Hi2Analyzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="analyzers\AutocorelationCriteriaAnalyzer.resx">
+      <DependentUpon>AutocorelationCriteriaAnalyzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="analyzers\LogCreatorAnalyzer.resx">
+      <DependentUpon>LogCreatorAnalyzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="analyzers\SwapCriteriaAnalyzer.resx">
+      <DependentUpon>SwapCriteriaAnalyzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="analyzers\RepeatsAnalyzer.resx">
+      <DependentUpon>RepeatsAnalyzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="analyzers\DispersionAnalyzer.resx">
+      <DependentUpon>DispersionAnalyzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="analyzers\MathExpectationAnalyzer.resx">
+      <DependentUpon>MathExpectationAnalyzer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="methods\RandomHi2DistributionWindow.resx">
+      <DependentUpon>RandomHi2DistributionWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="methods\RandomFisherSnedekorWindow.resx">
+      <DependentUpon>RandomFisherSnedekorWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="methods\RandomStandartNormalDistributionBarsaliBreyWindow.resx">
+      <DependentUpon>RandomStandartNormalDistributionBarsaliBreyWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="methods\RandomBinomialDistributionWindow.resx">
+      <DependentUpon>RandomBinomialDistributionWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="methods\RandomExponentialDistributionWindow.resx">
+      <DependentUpon>RandomExponentialDistributionWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="methods\RandomPuassoFlowWindow.resx">
+      <DependentUpon>RandomPuassoFlowWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimelineGraph.resx">
+      <DependentUpon>TimelineGraph.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MethodSelectWindow.resx">
+      <DependentUpon>MethodSelectWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="methods\RandomStandartNormalDistributionCentralEdgeTheoremaWindow.resx">
+      <DependentUpon>RandomStandartNormalDistributionCentralEdgeTheoremaWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MethodAnalyzeWindow.resx">
+      <DependentUpon>MethodAnalyzeWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="methods\RandomConcatenateSequencesWindow.resx">
+      <DependentUpon>RandomConcatenateSequencesWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="methods\RandomBoxMullerWindow.resx">
+      <DependentUpon>RandomBoxMullerWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="methods\RandomKoveyWindow.resx">
+      <DependentUpon>RandomKoveyWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="methods\RandomLevisPaneWindow.resx">
+      <DependentUpon>RandomLevisPaneWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="methods\RandomLinearCongurentWindow.resx">
+      <DependentUpon>RandomLinearCongurentWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="methods\RandomLevinWindow.resx">
+      <DependentUpon>RandomLevinWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="methods\RandomMyExclusiveWindow.resx">
+      <DependentUpon>RandomMyExclusiveWindow.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

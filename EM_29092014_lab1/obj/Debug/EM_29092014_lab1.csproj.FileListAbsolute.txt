@@ -1,0 +1,39 @@
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\bin\Debug\EM_29092014_lab1.exe.config
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\bin\Debug\EM_29092014_lab1.exe
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\bin\Debug\EM_29092014_lab1.pdb
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.csprojResolveAssemblyReference.cache
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.Properties.Resources.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.csproj.GenerateResource.Cache
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.exe
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.pdb
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RandomMyExclusiveWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RandomKoveyWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RandomLevinWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RandomLinearCongurentWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RandomLevisPaneWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RandomConcatenateSequencesWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RandomBoxMullerWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.TimelineGraph.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.ContinuousGaussProcessAnalyzer.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.MathExpectationAnalyzer.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.DispersionAnalyzer.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.MethodSelectWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.MethodAnalyzeWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.DensityAnalyser.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RepeatsAnalyzer.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.CycleAnalyzer.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.SwapCriteriaAnalyzer.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.Hi2Analyzer.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.AutocorelationCriteriaAnalyzer.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RandomPuassoFlowWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.EventAppearAnalyzer.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RandomBinomialDistributionWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RandomExponentialDistributionWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RandomStandartNormalDistributionBarsaliBreyWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RandomHi2DistributionWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RandomStandartNormalDistributionCentralEdgeTheoremaWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.RandomFisherSnedekorWindow.resources
+D:\ALL\Files\Архіви\КПИ\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.LogCreatorAnalyzer.resources
+D:\ALL\Files\Архіви\КПИ_Old\4 курс\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\bin\Debug\EM_29092014_lab1.exe.config
+D:\ALL\Files\Архіви\КПИ_Old\4 курс\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.exe
+D:\ALL\Files\Архіви\КПИ_Old\4 курс\Семестр 7\Емпіричні методи\lab1\EM_29092014_lab1\EM_29092014_lab1\obj\Debug\EM_29092014_lab1.pdb
